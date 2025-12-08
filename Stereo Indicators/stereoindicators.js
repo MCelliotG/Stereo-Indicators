@@ -21,6 +21,7 @@
     "prism",
     "redvelvet",
     "retrospect",
+	"secretgarden",
     "solar",
     "spaceship",
     "tangerine",
@@ -325,7 +326,17 @@
 	    peak: "hsl(0, 0%, 93%)"
 	  }
 	},
-	
+
+	secretgarden: {
+	  name: "secretgarden",
+	  colors: {
+	    low: "hsl(262, 50%, 32%)",
+	    mid: "hsl(282, 100%, 61%)",
+	    high: "hsl(44, 91%, 54%)",
+	    peak: "hsl(352, 100%, 67%)"
+	  }
+	},
+		
 	solar: {
 	  name: "solar",
 	  colors: {
@@ -568,6 +579,7 @@
             <div class="option" data-value="prism">Prism</div>
             <div class="option" data-value="redvelvet">Red Velvet</div>
             <div class="option" data-value="retrospect">Retrospect</div>
+            <div class="option" data-value="secretgarden">Secret Garden</div>
             <div class="option" data-value="solar">Solar</div>
             <div class="option" data-value="spaceship">Spaceship</div>
             <div class="option" data-value="tangerine">Tangerine</div>
