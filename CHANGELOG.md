@@ -1,7 +1,7 @@
 # Changelog
 
-## [2.1] — Visual Engine & Settings Overhaul (Mod by MCelliotG)
-**Release date:** 2025-12-07
+## [2.5] — Visual Engine & Settings Overhaul (Mod by MCelliotG)
+**Release date:** 2025-12-08
 
 ### Added
 - New **Settings Panel (Sidebar UI)**:
@@ -62,3 +62,4 @@
 - Basic stereo level indicators
 - Simple gradient bars
 - Initial glow implementation
+
