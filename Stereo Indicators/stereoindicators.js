@@ -23,7 +23,7 @@
     "prism",
     "redvelvet",
     "retrospect",
-	"secretgarden",
+    "secretgarden",
     "solar",
     "spaceship",
     "tangerine",
@@ -210,7 +210,7 @@
             low: main,
             mid: mainBright,
             high: high,
-            peak: textColor || "#ffffff"
+            peak: textColor || mainBright
           }
         };
       } catch (e) {
@@ -219,175 +219,175 @@
       }
     },
 
-	aurora: {
-	  name: "aurora",
-	  colors: {
-	    low: "hsl(333, 100%, 65%)",
-	    mid: "hsl(75, 91%, 66%)",
-	    high: "hsl(195, 100%, 50%)",
-	    peak: "hsl(60, 100%, 82%)"
-	  }
-	},
-	
-	aegean: {
-	  name: "aegean",
-	  colors: {
-	    low: "hsl(229, 100%, 36%)",
-	    mid: "hsl(226, 100%, 50%)",
-	    high: "hsl(24, 100%, 62%)",
-	    peak: "hsl(48, 48%, 90%)"
-	  }
-	},
-	
-	emerald: {
-	  name: "emerald",
-	  colors: {
-	    low: "hsl(128, 100%, 25%)",
-	    mid: "hsl(132, 100%, 50%)",
-	    high: "hsl(156, 100%, 50%)",
-	    peak: "hsl(120, 100%, 80%)"
-	  }
-	},
-	
-	escapade: {
-	  name: "escapade",
-	  colors: {
-	    low: "hsl(276, 100%, 19%)",
-	    mid: "hsl(287, 100%, 50%)",
-	    high: "hsl(316, 100%, 50%)",
-	    peak: "hsl(288, 100%, 86%)"
-	  }
-	},
-	
-	goldenbrown: {
-	  name: "goldenbrown",
-	  colors: {
-	    low: "hsl(28, 44%, 33%)",
-	    mid: "hsl(34, 73%, 42%)",
-	    high: "hsl(36, 100%, 50%)",
-	    peak: "hsl(41, 100%, 72%)"
-	  }
-	},
-	
-	iceblue: {
-	  name: "iceblue",
-	  colors: {
-	    low: "hsl(182, 100%, 50%)",
-	    mid: "hsl(210, 100%, 64%)",
-	    high: "hsl(222, 100%, 69%)",
-	    peak: "hsl(187, 100%, 86%)"
-	  }
-	},
-	
-	neonlights: {
-	  name: "neonlights",
-	  colors: {
-	    low: "hsl(250, 53%, 46%)",
-	    mid: "hsl(277, 67%, 67%)",
-	    high: "hsl(96, 57%, 76%)",
-	    peak: "hsl(38, 90%, 60%)"
-	  }
-	},
-	
-	pastel: {
-	  name: "pastel",
-	  colors: {
-	    low: "hsl(332, 88%, 73%)",
-	    mid: "hsl(0, 67%, 93%)",
-	    high: "hsl(204, 90%, 80%)",
-	    peak: "hsl(136, 100%, 97%)"
-	  }
-	},
-	
-	prism: {
-	  name: "prism",
-	  colors: {
-	    low: "hsl(212, 100%, 50%)",
-	    mid: "hsl(61, 95%, 71%)",
-	    high: "hsl(338, 100%, 50%)",
-	    peak: "hsl(159, 100%, 44%)"
-	  }
-	},
-	
-	redvelvet: {
-	  name: "redvelvet",
-	  colors: {
-	    low: "hsl(0, 100%, 33%)",
-	    mid: "hsl(0, 100%, 53%)",
-	    high: "hsl(0, 100%, 65%)",
-	    peak: "hsl(0, 100%, 84%)"
-	  }
-	},
-	
-	retrospect: {
-	  name: "retrospect",
-	  colors: {
-	    low: "hsl(223, 63%, 19%)",
-	    mid: "hsl(28, 94%, 54%)",
-	    high: "hsl(71, 41%, 73%)",
-	    peak: "hsl(0, 0%, 93%)"
-	  }
-	},
+    aurora: {
+      name: "aurora",
+      colors: {
+        low: "hsl(333, 100%, 65%)",
+        mid: "hsl(75, 91%, 66%)",
+        high: "hsl(195, 100%, 50%)",
+        peak: "hsl(60, 100%, 82%)"
+      }
+    },
+    
+    aegean: {
+      name: "aegean",
+      colors: {
+        low: "hsl(229, 100%, 36%)",
+        mid: "hsl(226, 100%, 50%)",
+        high: "hsl(24, 100%, 62%)",
+        peak: "hsl(48, 48%, 90%)"
+      }
+    },
+    
+    emerald: {
+      name: "emerald",
+      colors: {
+        low: "hsl(128, 100%, 25%)",
+        mid: "hsl(132, 100%, 50%)",
+        high: "hsl(156, 100%, 50%)",
+        peak: "hsl(120, 100%, 80%)"
+      }
+    },
+    
+    escapade: {
+      name: "escapade",
+      colors: {
+        low: "hsl(276, 100%, 19%)",
+        mid: "hsl(287, 100%, 50%)",
+        high: "hsl(316, 100%, 50%)",
+        peak: "hsl(288, 100%, 86%)"
+      }
+    },
+    
+    goldenbrown: {
+      name: "goldenbrown",
+      colors: {
+        low: "hsl(28, 44%, 33%)",
+        mid: "hsl(34, 73%, 42%)",
+        high: "hsl(36, 100%, 50%)",
+        peak: "hsl(41, 100%, 72%)"
+      }
+    },
+    
+    iceblue: {
+      name: "iceblue",
+      colors: {
+        low: "hsl(182, 100%, 50%)",
+        mid: "hsl(210, 100%, 64%)",
+        high: "hsl(222, 100%, 69%)",
+        peak: "hsl(187, 100%, 86%)"
+      }
+    },
+    
+    neonlights: {
+      name: "neonlights",
+      colors: {
+        low: "hsl(250, 53%, 46%)",
+        mid: "hsl(277, 67%, 67%)",
+        high: "hsl(96, 57%, 76%)",
+        peak: "hsl(38, 90%, 60%)"
+      }
+    },
+    
+    pastel: {
+      name: "pastel",
+      colors: {
+        low: "hsl(332, 88%, 73%)",
+        mid: "hsl(0, 67%, 93%)",
+        high: "hsl(204, 90%, 80%)",
+        peak: "hsl(136, 100%, 97%)"
+      }
+    },
+    
+    prism: {
+      name: "prism",
+      colors: {
+        low: "hsl(212, 100%, 50%)",
+        mid: "hsl(61, 95%, 71%)",
+        high: "hsl(338, 100%, 50%)",
+        peak: "hsl(159, 100%, 44%)"
+      }
+    },
+    
+    redvelvet: {
+      name: "redvelvet",
+      colors: {
+        low: "hsl(0, 100%, 33%)",
+        mid: "hsl(0, 100%, 53%)",
+        high: "hsl(0, 100%, 65%)",
+        peak: "hsl(0, 100%, 84%)"
+      }
+    },
+    
+    retrospect: {
+      name: "retrospect",
+      colors: {
+        low: "hsl(223, 63%, 19%)",
+        mid: "hsl(28, 94%, 54%)",
+        high: "hsl(71, 41%, 73%)",
+        peak: "hsl(0, 0%, 93%)"
+      }
+    },
 
-	secretgarden: {
-	  name: "secretgarden",
-	  colors: {
-	    low: "hsl(262, 50%, 32%)",
-	    mid: "hsl(282, 100%, 61%)",
-	    high: "hsl(44, 91%, 54%)",
-	    peak: "hsl(352, 100%, 67%)"
-	  }
-	},
-		
-	solar: {
-	  name: "solar",
-	  colors: {
-	    low: "hsl(40, 100%, 57%)",
-	    mid: "hsl(7, 97%, 38%)",
-	    high: "hsl(51, 90%, 51%)",
-	    peak: "hsl(53, 59%, 64%)"
-	  }
-	},
-	
-	spaceship: {
-	  name: "spaceship",
-	  colors: {
-	    low: "hsl(228, 85%, 13%)",
-	    mid: "hsl(0, 100%, 43%)",
-	    high: "hsl(0, 100%, 61%)",
-	    peak: "hsl(213, 100%, 17%)"
-	  }
-	},
-	
-	tangerine: {
-	  name: "tangerine",
-	  colors: {
-	    low: "hsl(0, 100%, 41%)",
-	    mid: "hsl(28, 100%, 50%)",
-	    high: "hsl(41, 100%, 48%)",
-	    peak: "hsl(42, 100%, 73%)"
-	  }
-	},
-	
-	vesper: {
-	  name: "vesper",
-	  colors: {
-	    low: "hsl(28, 97.6%, 50%)",
-	    mid: "hsl(274, 97.6%, 50%)",
-	    high: "hsl(181.9, 97.6%, 50%)",
-	    peak: "hsl(0, 0%, 100%)"
-	  }
-	},
-	
-	vintage: {
-	  name: "vintage",
-	  colors: {
-	    low: "hsl(38, 26%, 47%)",
-	    mid: "hsl(35, 43%, 78%)",
-	    high: "hsl(55, 40%, 76%)",
-	    peak: "hsl(69, 22%, 67%)"
-	  }
-	}
+    secretgarden: {
+      name: "secretgarden",
+      colors: {
+        low: "hsl(262, 50%, 32%)",
+        mid: "hsl(282, 100%, 61%)",
+        high: "hsl(44, 91%, 54%)",
+        peak: "hsl(352, 100%, 67%)"
+      }
+    },
+        
+    solar: {
+      name: "solar",
+      colors: {
+        low: "hsl(40, 100%, 57%)",
+        mid: "hsl(7, 97%, 38%)",
+        high: "hsl(51, 90%, 51%)",
+        peak: "hsl(53, 59%, 64%)"
+      }
+    },
+    
+    spaceship: {
+      name: "spaceship",
+      colors: {
+        low: "hsl(228, 85%, 13%)",
+        mid: "hsl(0, 100%, 43%)",
+        high: "hsl(0, 100%, 61%)",
+        peak: "hsl(213, 100%, 17%)"
+      }
+    },
+    
+    tangerine: {
+      name: "tangerine",
+      colors: {
+        low: "hsl(0, 100%, 41%)",
+        mid: "hsl(28, 100%, 50%)",
+        high: "hsl(41, 100%, 48%)",
+        peak: "hsl(42, 100%, 73%)"
+      }
+    },
+    
+    vesper: {
+      name: "vesper",
+      colors: {
+        low: "hsl(28, 97.6%, 50%)",
+        mid: "hsl(274, 97.6%, 50%)",
+        high: "hsl(181.9, 97.6%, 50%)",
+        peak: "hsl(0, 0%, 100%)"
+      }
+    },
+    
+    vintage: {
+      name: "vintage",
+      colors: {
+        low: "hsl(38, 26%, 47%)",
+        mid: "hsl(35, 43%, 78%)",
+        high: "hsl(55, 40%, 76%)",
+        peak: "hsl(69, 22%, 67%)"
+      }
+    }
   };
 
   function loadActiveTheme() {
