@@ -1,3 +1,5 @@
+// Stereo Indicators v3.5 — Portrait fully hides meter blocks + '|' scale fix (SAFE PATCH)
+// ============================================================
 (() => {
   // ============================================================
   // STEREO INDICATORS — FULL HARDENED VERSION
@@ -1490,7 +1492,7 @@
         NB.repeat(2) +
         "-1" +
         NB.repeat(1) +
-        "0" +
+        "|" +
         NB.repeat(1) +
         "+1" +
         NB.repeat(2) +
@@ -1832,7 +1834,27 @@
             if (node !== last) {
               last = node;
               resetAudioState();
-              initAudioSystem();
+        
+      // ============================================================
+      // PORTRAIT: HIDE L / R & NUMBER ROWS (INLINE-STYLE TARGETING)
+      // ============================================================
+      function hideStereoLabelsInPortrait() {
+        const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
+        const wrappers = document.querySelectorAll(
+          'div[style*="position: relative"][style*="height: 100px"]'
+        );
+
+        wrappers.forEach(wrapper => {
+          wrapper.style.display = isPortrait ? "none" : "";
+        });
+      }
+
+      hideStereoLabelsInPortrait();
+      window.addEventListener("orientationchange", hideStereoLabelsInPortrait);
+      window.addEventListener("resize", hideStereoLabelsInPortrait);
+
+      initAudioSystem();
             }
           }
         } catch (e) {
@@ -1844,6 +1866,26 @@
       }, 1000);
 
       // Start system
+
+      // ============================================================
+      // PORTRAIT: HIDE L / R & NUMBER ROWS (INLINE-STYLE TARGETING)
+      // ============================================================
+      function hideStereoLabelsInPortrait() {
+        const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
+        const wrappers = document.querySelectorAll(
+          'div[style*="position: relative"][style*="height: 100px"]'
+        );
+
+        wrappers.forEach(wrapper => {
+          wrapper.style.display = isPortrait ? "none" : "";
+        });
+      }
+
+      hideStereoLabelsInPortrait();
+      window.addEventListener("orientationchange", hideStereoLabelsInPortrait);
+      window.addEventListener("resize", hideStereoLabelsInPortrait);
+
       initAudioSystem();
     } catch (e) {
       console.error("[StereoIndicators] DOMContentLoaded init failed:", e);
