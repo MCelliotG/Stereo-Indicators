@@ -1,4 +1,4 @@
-# Stereo Indicators v2.1
+# Stereo Indicators v2.5
 <img width="1471" height="556" alt="sl" src="https://github.com/user-attachments/assets/1a70688d-8ef4-4e6e-878a-bcbd0c49c90f" />
 
 **Stereo Indicators** is a high-performance, real-time stereo audio peak meter for the browser, designed for **fm-dx-webserver**.  
@@ -6,7 +6,7 @@ It displays **Left & Right channel levels** using advanced **gradient rendering*
 
 ---
 
-## ✨ Features (v2.1)
+## ✨ Features (v2.5)
 
 ### 🎚 Core Meter Features
 - Real-time stereo audio visualization (Left & Right)
