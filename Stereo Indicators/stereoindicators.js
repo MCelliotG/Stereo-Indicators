@@ -1,4 +1,4 @@
-// Stereo Indicators v3.5 — Portrait fully hides meter blocks + '|' scale fix (SAFE PATCH)
+// Stereo Indicators v2.5 — Portrait fully hides meter blocks + '|' scale fix (SAFE PATCH)
 // ============================================================
 (() => {
   // ============================================================
